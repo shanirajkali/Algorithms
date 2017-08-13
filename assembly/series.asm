@@ -1,0 +1,14 @@
+MVI A,0H
+MVI B,0H
+MVI C,0AH
+LXI H,3000H
+Mov M,B
+LOOP:	INR B
+	INR B
+	ADD B
+	INX H
+	MOV M,A
+	DCR C
+	JNC LOOP
+	
+hlt

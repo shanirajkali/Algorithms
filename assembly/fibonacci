@@ -1,0 +1,12 @@
+mvi c, 07h
+lxi h, c050h
+mov a , m
+inx h
+mov b,m
+add b
+inx h
+mov m, a
+dcx h
+dcr c
+jnz l1
+hlt
