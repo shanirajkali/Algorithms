@@ -1,10 +1,9 @@
 package dynamic;
 import java.util.*;
 import java.io.*;
-/*successful code WoW
+/*
  * author Shani Raj Kali
  * date 16/06/2017
- * time to made and learn to LCS 14hrs
  */
 public class LPSTransformation {
 static void insTF(int[][] tf,int x,int y){
